@@ -1,3 +1,5 @@
+
+//* TRINE JS START *//
 function myFunction() {
     let x = document.getElementById("myLinks");
    
@@ -7,3 +9,10 @@ function myFunction() {
       x.style.display = "block";
     }
   }
+
+
+
+
+
+  
+//* TRINE JS SLUT *//
