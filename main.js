@@ -10,9 +10,20 @@ function myFunction() {
     }
   }
 
+let i = 0;
+const images = [
+    'pictures/pic1.png',
+    'pictures/pic2.png',
+    'pictures/pic3.png' 
+    ];
 
+function forward(){
 
+      document.getElementById("slideshow").src = images[i];
 
+    if(i < images.length - 1){
+      i++;
+    }
+}
 
-  
 //* TRINE JS SLUT *//
