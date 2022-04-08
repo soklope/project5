@@ -21,3 +21,5 @@ function changeImg(){
 }
 
 window.onload=changeImg;
+
+//* TRINE JS SLUT *//
