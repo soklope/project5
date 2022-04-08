@@ -126,14 +126,16 @@ img {
     margin-left: 20px;
     font-size: 20px;
     padding-top: 2px;
+    color: #fdf6ed;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    background-color: #0000004b;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
 }
 
 .banner-container {
     position: relative;
 }
-
-.test {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-  }
