@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="main.js" defer></script>
+    <script src="timer.js" defer></script>
     <script src="slides.js" defer></script>
     <title>H.C. Andersen Festspil</title>
 </head>
@@ -23,7 +23,10 @@
                 <a href="#billetter">Billetter</a>
             </div>
 
-            <img src="img/pic1.png" alt="Dyrene i hakkebakkeskoven banner">
+            <div class="banner-container">
+                <img src="img/pic1.png" alt="Dyrene i hakkebakkeskoven banner">
+                <div class="TEST">TEST</div>
+            </div>
             
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         
@@ -45,8 +48,12 @@
             <p>01/08/22</p>
             <p><b>Lokation</b></p>
             <p>Sejerskovvej 20, Odense</p>
-            <button>KØB BILLET</button>
+            <div class="call-to-action">
+                <button>KØB BILLET</button>
+                <p id="countdown">60:00</p>
+            </div>
         </div>
+
         <div class="show-story">
             <p>
                 Det er Thorbjørn Egners fortællinger om "Dyrene i Hakkebakkeskoven", der danner grundlag for en fantastisk forestilling.
