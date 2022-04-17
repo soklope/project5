@@ -2,21 +2,9 @@
 const startingMinutes = 0.1;
 let time = startingMinutes * 60;
 
-let links = [
-  "Forside",
-  "Historie",
-  "Forestillingen",
-  "Biletter"
-]
-
 const myLinks = document.getElementById("myLinks");
 const countdownEl = document.getElementById("countdown");
 const ticketButton = document.getElementById("ticketButton");
-
-// for (let index = 0; index < links.length; index++) {
-//   const element = links[index];
-//   myLinks.append("<a href="+element+">"+element+"</a>")
-// }
 
 setInterval(updateCountdown, 1000);
 
@@ -44,6 +32,35 @@ function updateCountdown() {
 function addTicket() {
   ticketButton.style.backgroundColor = "black";
 }
+
+
+
+
+
+let i = 0; 			
+let images = [];	
+let timer = 7000;	
+
+images = [
+  "img/pic1.jpg",
+  "img/pic2.jpg",
+  "img/pic3.jpg"
+]
+
+function changeImg(){
+	document.slide.src = images[i];
+
+	if(i < images.length - 1){
+	  i++; 
+	} else { 
+		i = 0;
+	}
+
+	setTimeout("changeImg()", timer);
+}
+
+window.onload=changeImg;
+
 
 //* SØREN JS SLUT *//
 
