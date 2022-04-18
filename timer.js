@@ -55,8 +55,10 @@ window.onload=changeImg;
 
 const names = ['Jannick', 'Peter', 'Sophia', 'Merit'];
 
-for (let e = 0; e < names.length; e++ )
-  document.getElementById('cast').innerHTML = names;
+for (let e = 0; e < names.length; e++) {
+  document.getElementById('cast').innerHTML += names[e] + ", ";
+}
+
 
 //* SØREN JS SLUT *//
 
