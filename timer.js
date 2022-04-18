@@ -53,6 +53,10 @@ function changeImg(){
 
 window.onload=changeImg;
 
+const names = ['Jannick', 'Peter', 'Sophia', 'Merit'];
+
+for (let e = 0; e < names.length; e++ )
+  document.getElementById('cast').innerHTML = names;
 
 //* SØREN JS SLUT *//
 

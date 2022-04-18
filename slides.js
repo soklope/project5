@@ -1,6 +1,6 @@
 //* TRINE JS START *//
 
-let i = 0; 			
+let k = 0; 			
 let images = [];	
 let time = 10000;	
 
@@ -9,12 +9,12 @@ images[1] = "img/pic2.jpg";
 images[2] = "img/pic3.jpg";
 
 function changeImg(){
-	document.slide.src = images[i];
+	document.slide.src = images[k];
 
-	if(i < images.length - 1){
-	  i++; 
+	if(k < images.length - 1){
+	  k++; 
 	} else { 
-		i = 0;
+		k = 0;
 	}
 
 	setTimeout("changeImg()", time);
