@@ -63,9 +63,17 @@ function ticketLink() {
   location.href = 'https://www.facebook.com';
 }
 
-function navColor() {
-  document.getElementById('navbar').style.backgroundColor = "#333333";
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("navbar").style.backgroundColor = "#00000090";
+  } else {
+    document.getElementById("navbar").style.backgroundColor = "#00000000";
+  }
 }
+
+
 
 //* SØREN JS SLUT *//
 
