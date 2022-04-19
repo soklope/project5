@@ -19,4 +19,9 @@ function scrollFunction() {
   } else {
     document.getElementById("navbar").style.backgroundColor = "#00000000";
   }
-}
+//* ANNICA JS START *//
+
+
+
+
+//* ANNICA JS SLUT *//
