@@ -253,7 +253,7 @@ textarea::-webkit-scrollbar{
   width: 4px;
 }
 
-textarea:-webkit-scrollbar-thumb{
+textarea::-webkit-scrollbar-thumb{
   background-color: red;
 }
 
@@ -446,9 +446,9 @@ input[type="submit"]{
       justify-content: center;
       align-items: center;
       position: fixed;
-      left: 0; 
-      right: 0; 
-      margin-left: auto; 
+      left: 0;
+      right: 0;
+      margin-left: auto;
       margin-right: auto;
       padding-top: 15px;
       padding-bottom: 15px;
