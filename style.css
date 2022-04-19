@@ -197,7 +197,6 @@ img {
 
 h2 {
     position: absolute;
-    position: absolute;
     bottom: 50px;
     left: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -284,4 +283,3 @@ h2 {
     .hr-left {
         margin-left: 20px;
     }
-}
