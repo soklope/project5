@@ -8,7 +8,7 @@
   </head>
   <body>
 <div id="overlay">
-  <form>
+  <form onsubmit="event.preventDefault(); validateForm()">
 <h1>Kontakt</h1>
 
 <label for="name">Navn:</label>
@@ -20,9 +20,14 @@
 <small class="error"></small>
 
 <label for="message">Message:</label>
-<textarea id="message" placeholder="Your message"></textarea>
+<textarea id="message" placeholder="Your message" rows="6"></textarea>
 <small class="error"></small>
 
+<div class="center">
+  <input type="submit" value="Send">
+  <p id"success"></p>
+
+</div>
   </form>
 
 </div>
