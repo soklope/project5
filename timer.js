@@ -59,6 +59,13 @@ for (let e = 0; e < names.length; e++) {
   document.getElementById('cast').innerHTML += names[e] + ", ";
 }
 
+function ticketLink() {
+  location.href = 'https://www.facebook.com';
+}
+
+function navColor() {
+  document.getElementById('navbar').style.backgroundColor = "#333333";
+}
 
 //* SØREN JS SLUT *//
 

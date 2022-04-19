@@ -5,6 +5,14 @@ body {
     height: 3000px;
   }
   
+nav {
+    display: none;
+}
+
+hr {
+    display: none;
+}
+
 .topnav #myLinks {
     display: none;
     margin-top: 75px;
@@ -86,11 +94,12 @@ img {
     position: relative;
 }
 
-.billetnav {
+#billetnav {
     position: absolute;
     top: 27px;
     right: 16px;
     height: 35px;
+    margin-bottom: 50px;
     border: 0;
     background-color: #fdf6ed;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
@@ -200,4 +209,81 @@ h2 {
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 20px;
+}
+
+@media screen and (min-width: 700px) {
+
+    .burger-container {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        left: 0; 
+        right: 0; 
+        top: 15px;
+        margin-left: auto; 
+        margin-right: auto;
+        padding-top: 0;
+        z-index: 98;
+    }
+
+    nav > a {
+        color: #faebd7;
+        text-decoration: none;
+        font-size: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    #billetnav {
+        display: none;
+    }
+
+    .forside {
+        margin-left: 20px;
+    }
+
+    .topnav a {
+        color: #faebd7;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        display: block;
+        background-color: #00000000;
+        z-index: 1000;
+    }
+
+    #billetter-desktop {
+        color: #534741;
+        background-color: #faebd7;
+        border-radius: 30px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 8px;
+        margin-right: 20px;
+    }
+
+    hr {
+        display: block;
+        border: 1px solid #faebd7;
+        width: 30%;
+        border-radius: 5px;
+        z-index: 988;
+    }
+
+    .hr-right {
+        margin-right: 20px;
+    }
+
+    .hr-left {
+        margin-left: 20px;
+    }
 }
