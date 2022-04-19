@@ -51,7 +51,7 @@ hr {
     position: fixed;
 }
 
-button {
+.button {
     height: 35px;
     border: 0;
     margin-top: 20px;
@@ -64,6 +64,11 @@ button {
     padding-left: 10px;
     padding-right: 10px;
 } 
+
+.submit {
+  border: 0;
+  font-weight: 800;
+}
 
 video {
     max-width: 100%;
