@@ -436,6 +436,9 @@ input[type="submit"]{
 
 }
 
+a:hover {
+  color: rgb(255, 255, 255);
+}
 
 /* SØREN */
 
