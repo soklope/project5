@@ -86,6 +86,7 @@ video {
     min-height: 600px;
     max-height: 600px;
     object-fit: cover;
+    object-position: top;
 }
 
 .bannervideo{
@@ -563,3 +564,174 @@ input[type="submit"]{
   transition: all 300ms ease-in-out;
   transform: translate(-50%, -50%) scale(1);
 }
+
+.tommelise-year {
+  font-size: 60px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: -45px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #534741;
+  padding-left: 8px;
+}
+
+.tommelise {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 3px;
+  color: #534741;
+}
+
+/* ANDY START */
+
+
+.history_container{
+  position: relative;
+}
+
+.bg_img{
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 600px;
+  max-height: 600px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.infobox{
+    position: absolute;
+    background-color: #fdf6ed;
+    border-radius: 10px;
+    max-width: 70%;
+    min-width: 60%;
+    min-height: 8rem;
+    margin-left: 1em;
+    margin-top: 1em;
+    top: 10px;
+}
+
+.infobox h1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Verdana', sans-serif;
+  color:#534741;
+  padding: 1em;
+  margin-bottom: -2em;
+  text-align: left;
+  margin-top: -0.5em;
+}
+
+.infobox p{
+  font-family: 'Candara', 'Arial', sans-serif;
+  color:#534741;
+  padding: 1rem;
+  text-align: left;
+  margin-left: 1em;
+}
+
+.se_tidslinje{
+  right: 1em;
+  border: 0;
+  background-color: #534741;
+  color: #fdf6ed;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Verdana', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  border-radius: 20px;
+  padding: 3px 15px 0px 15px;
+  max-width: 50%;
+  float: right;
+  margin-bottom: 1em;
+  margin-right: 1em;
+  text-decoration: none;
+}
+
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  min-width: 100%;
+}
+
+.gallery__img {
+  min-height: fit-content;
+  vertical-align: middle;
+  margin: 0.1em;
+  margin-right: 0.3em;
+  max-width: 100%;
+}
+.gallery__img gallery__item--1{
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.gallery__img gallery__item--2{
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+.gallery__img gallery__item--3{  
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.gallery__img gallery__item--4{
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.searchbar{
+  width: 400px;
+  height: 200px;
+}
+.search{
+  position:relative;
+  display: block;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #534741;
+  font-size: 1rem;
+  z-index: 9999;
+}
+
+.search_text{
+  border: 0;
+  color: #534741;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode','Verdana', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  border-radius: 20px;
+  margin: 1em;
+}
+
+/*
+
+@media only screen and (min-width:801px) {
+  .gallery{
+      margin-top: 20em;
+      
+  } 
+}
+@media only screen and (min-width:641px) {
+  .gallery{
+      margin-top: 40em;
+      
+  } 
+}
+@media only screen and (min-width:901px) {
+  .gallery{
+      margin-top: 40em;
+      
+  }
+}
+@media only screen and (min-width:1281px) {
+.gallery{
+  margin-top: 60em;
+  
+  } 
+}
+@media only screen and (min-width:2000px) {
+  .gallery{
+      margin-top: 80em;        
+  }
+}
+
+*/

@@ -8,6 +8,7 @@
     <script src="main.js" defer></script>
     <script src="slides.js" defer></script>
     <script src="form.js" defer></script>
+    <script src="sog.js" defer></script>
     <title>H.C. Andersen Festspil</title>
 </head>
 <body>
@@ -54,10 +55,50 @@
             <p class="slidetext3">Læs mere</p>
             <div class="billet">BILLETTER</div>
        </div>
-   </main>
+ 
+
+    <div class="history_container">
+        <img class="bg_img" src="img/bg-img.jpg" alt="background image">
+        <div class="infobox">
+        <h1>VORES HISTORIE</h1>    
+        <p>H.C. Andersen Festspillene har siden 1965 optrådt med mere end 100 eventyr.</p>
+        <a href="timeline.html" class="se_tidslinje">SE TIDSLINJEN</a>
+        </div>
+    </div>
+
+    <div>
+        <h4 class="tommelise-year">2021</h4>
+        <h4 class="tommelise">TOMMELISE</h4>
+    </div>
+
+    <div class="gallery">
+        <div class="gallery__img gallery__item--1">
+          <img src="img/pic2.jpg" class="gallery__img" alt="Image 1">
+        </div>
+
+        <div class="gallery__img gallery__item--2">
+            <img src="img/pic2.jpg" class="gallery__img" alt="Image 2">
+        </div>
+
+          <div class="gallery__img gallery__item--3">
+            <img src="img/pic2.jpg" class="gallery__img" alt="Image 3">
+        </div>
+
+          <div class="gallery__img gallery__item--4">
+            <img src="img/pic2.jpg" class="gallery__img" alt="Image 4">
+          </div>      
+    </div>
+
+    <div class="searchbar">
+        <p class="search_text">Her kan du søge efter billeder</p>
+        <form class="search" autocomplete="off"><input type="text" name="q" id="q" onKeyUp="showResults(this.value)"/>
+            <div id="result"></div>
+        </form>
+    </div>
+
+    </main>
 
     <footer>
-    
         <div class="main">
             <div class="links">
                 <h6>Kontakt</h6>
