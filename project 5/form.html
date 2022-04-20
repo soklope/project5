@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="timeline.css">
+    <script src="form.js"></script>
+  </head>
+  <body>
+<div id="overlay">
+  <form onsubmit="event.preventDefault(); validateForm()">
+<h1>Kontakt</h1>
+
+<label for="name">Navn:</label>
+<input type="text" id="name" placeholder="Dit navn">
+<small class="error"></small>
+
+<label for="email">Email:</label>
+<input type="text" id="name" placeholder="Din email">
+<small class="error"></small>
+
+<label for="message">Message:</label>
+<textarea id="message" placeholder="Your message" rows="6"></textarea>
+<small class="error"></small>
+
+<div class="center">
+  <input type="submit" value="Send">
+  <p id"success"></p>
+
+</div>
+  </form>
+
+</div>
+
+  </body>
+</html>
