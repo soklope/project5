@@ -86,6 +86,7 @@ video {
     max-width: 100%;
     min-width: 100%;
     min-height: 600px;
+    max-height: 600px;
     object-fit: cover;
 }
 

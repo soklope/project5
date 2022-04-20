@@ -9,7 +9,7 @@ images[1] = "img/pic2.jpg";
 images[2] = "img/pic3.jpg";
 
 function changeImg(){
-	document.slide.src = images[k];
+	document.getElementById("slide").src = images[k];
 
 	if(k < images.length - 1){
 	  k++; 

@@ -37,10 +37,10 @@ let i = 0;
 let images = [];	
 let timer = 7000;	
 
-images = ["img/pic1.jpg", "img/pic2.jpg", "img/pic3.jpg"]
+images = ["img/pic1.jpg", "img/pic2.jpg", "img/pic3.jpg"];
 
 function changeImg(){
-	document.slide.src = images[i];
+	document.getElementById("slide").src = images[i];
 
 	if(i < images.length - 1){
 	  i++; 
