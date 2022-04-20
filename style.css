@@ -101,22 +101,22 @@ video {
     position: absolute;
     top: 27px;
     right: 16px;
-    height: 35px;
-    margin-bottom: 50px;
     border: 0;
     background-color: #fdf6ed;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     font-size: 20px;
     letter-spacing: 2px;
     border-radius: 20px;
-    padding: 3px 15px 0px 15px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 } 
 
 .billet {
     position: absolute;
     bottom: 8px;
     right: 16px;
-    height: 35px;
     margin-bottom: 50px;
     border: 0;
     background-color: #fdf6ed;
@@ -124,7 +124,10 @@ video {
     font-size: 20px;
     letter-spacing: 2px;
     border-radius: 20px;
-    padding: 3px 15px 0px 15px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 } 
 
 .slidetext1{
@@ -262,6 +265,7 @@ footer{
     width: 300px;
     padding: 0 15px;
     outline: none;
+    border-radius: 10px;
   }
   
   .newsletter form button {
@@ -331,6 +335,10 @@ footer{
     font-size: 10px;
     text-align: center;
     color:white;
+  }
+
+  #cast {
+    padding-bottom: 30px;
   }
  
 /* FOOTER */
