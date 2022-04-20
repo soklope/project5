@@ -278,8 +278,7 @@ footer{
   .social-icons{
     display: flex;
     align-items: center;
-    margin-top: 30px;
-    margin-left: -10px;
+    margin-left: -50px;
   }
   
   .social-icons li{

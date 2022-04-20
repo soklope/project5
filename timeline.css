@@ -533,12 +533,6 @@ form{
   box-sizing: border-box;
 }
 
-h1{
-  margin:0;
-  text-align: center;
-  color:#534741;
-}
-
 label{
   display: block;
   margin: 10px 0;
