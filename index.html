@@ -57,13 +57,6 @@
    </main>
 
     <footer>
-        <div class="newsletter">
-            <h3>Nyhedsbrev</h3>
-            <form id="myForm" action="?">
-                <input type="email" placeholder="Indtast din email">
-                <button type="submit" class="submit">Tilmeld</button>
-            </form>
-        </div>
     
         <div class="main">
             <div class="links">
@@ -73,6 +66,37 @@
                 <p>Tlf:24220956</p>
                 <p>Email:mail@hcandersenfestspillene.dk</p>
                 <a href="#" id="button" class="button">Kontakt os her!</a>
+
+                <div class="bg-modal">
+                <div class="modal-content">
+                
+                <div class="close">+</div>
+                <div id="form">
+                  <form onsubmit="event.preventDefault(); validateForm()">
+                <h1>Kontakt</h1>
+                
+                <label for="name">Navn:</label>
+                <input type="text" id="name" placeholder="Dit navn">
+                <small class="error"></small>
+                
+                <label for="email">Email:</label>
+                <input type="text" id="email" placeholder="Din email">
+                <small class="error"></small>
+                
+                <label for="message">Besked:</label>
+                <textarea id="message" placeholder="Din besked" rows="6"></textarea>
+                <small class="error"></small>
+                
+                <div class="center">
+                  <input  id="btn1" type="submit" value="Send">
+                  <p id="success"></p>
+                
+                </div>
+                  </form>
+                
+                </div>
+                </div>
+                </div>
             </div>
             
             <div class="links">

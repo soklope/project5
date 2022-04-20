@@ -187,7 +187,7 @@ hr{
   font-size: 20px;
   color: white;
   font-family: Lucida Sans;
-
+  padding-bottom: 20px;
 }
 
 .links{
@@ -642,6 +642,14 @@ input[type="submit"]{
   transform: translate(-50%, -50%) scale(1);
 }
 
-.button{
-  color: black;
+.button {
+  height: 35px;
+  border: 0;
+  margin-top: 20px;
+  color: #faebd7;
+  background-color: #534741;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  letter-spacing: 2px;
+  border-radius: 20px;
 }
