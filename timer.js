@@ -60,7 +60,7 @@ for (let e = 0; e < names.length; e++) {
 }
 
 function ticketLink() {
-  location.href = 'https://www.facebook.com';
+  location.href = 'https://nembillet.dk/search/text/folk%20og%20r%C3%B8vere';
 }
 
 window.onscroll = function() {scrollFunction()};
