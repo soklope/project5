@@ -1,6 +1,6 @@
 //* SØREN JS START *//
 const startingMinutes = 0.1;
-let time = startingMinutes * 100;
+let time = startingMinutes * 60;
 
 const myLinks = document.getElementById("myLinks");
 const countdownEl = document.getElementById("countdown");
