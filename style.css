@@ -483,15 +483,6 @@ input, textarea{
   border: 1px solid #534741;
 }
 
-
-textarea::-webkit-scrollbar{
-  width: 4px;
-}
-
-textarea::-webkit-scrollbar-thumb{
-  background-color: red;
-}
-
 .center{
   text-align: center;
 }
